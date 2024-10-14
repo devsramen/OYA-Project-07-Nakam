@@ -104,7 +104,7 @@ ul,li{
     z-index: 1;
     overflow: hidden;
 }
-#banner .container-md{
+#banner .container{
     position: relative;
     z-index: 2;
 }
@@ -272,7 +272,7 @@ ul,li{
     filter: blur(10px);
     -webkit-filter: blur(241px);
 }
-#teams .container-md{
+#teams .container{
     position: relative;
     z-index: 2;
 }
@@ -299,19 +299,19 @@ ul,li{
     padding-bottom: 100px;
     position: relative;
 }
-#download .container-md{
+#download .container{
     background: #FFF8F7;
 }
-#download .container-md .sectionTitle{
+#download .container .sectionTitle{
     width: 522px;
     letter-spacing: .5px;
     margin-top: 60px;
     margin-bottom: 30px;
 }
-#download .container-md p{
+#download .container p{
     width: 522px;
 }
-#download .container-md .commonBtn{
+#download .container .commonBtn{
     display: inline-block;
 }
 #download .illustrator1{
@@ -381,7 +381,12 @@ ul,li{
     font-weight: 300;
 }
 
-
-
 /* Footer Section End */
 
+
+
+
+#download,
+#footer{
+    display: none;
+}

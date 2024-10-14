@@ -34,15 +34,132 @@
         display: none;
     }
     #banner h1 {
-        width: inherit;
+        width: 69%;
         font-size: 31px;
+        margin: 0 auto;
     }
     #banner p {
-        width: inherit;
+        width: 69%;
         font-size: 17px;
+        margin: 0 auto;
     }
-
+    #banner .commonBtn {
+        margin-left: inherit;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
     /* Banner Section End */
+    
+    /* About Section Start */
+    #about{
+        text-align: center;
+        padding: 80px 0;
+    }
+    #about .gridContainer {
+        display: none;
+    }
+    #about .sectionHead {
+        font-size: 25px;
+    }
+    #about .sectionTitle {
+        width: inherit;
+        font-size: 34px;
+    }
+    #about p {
+        width: inherit;
+        margin: 24px auto;
+    }
+    #about .commonBtn {
+        margin-left: inherit;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    /* About Section End */
+    
+    /* Recommendations Section Start */
+    .row > * {
+        padding-right: unset;
+    }
+    #recommendations{
+        /* text-align: center; */
+        padding: 40px 0 0 0;
+        text-align: center;
+    }
+    #about .gridContainer {
+        display: none;
+    }
+    #recommendations .sectionHead {
+        font-size: 25px;
+        text-align: center;
+        display: block;
+    }
+    #recommendations .sectionTitle {
+        width: unset;
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    #about p {
+        width: inherit;
+        margin: 24px auto;
+    }
+    #about .commonBtn {
+        margin-left: inherit;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    /* Recommendations Section End */
+    
+    /* Service Section Start */
+    .row > * {
+        padding-right: unset;
+    }
+    #services{
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+    #services .sectionHead {
+        font-size: 25px;
+        text-align: center;
+        display: block;
+    }
+    #services .sectionTitle {
+        width: unset;
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    #about p {
+        width: inherit;
+        margin: 24px auto;
+    }
+    #about .commonBtn {
+        margin-left: inherit;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    /* Service Section End */
+
+    /* Teams Section End */
+    #teams {
+        margin-top: 53px;
+        /* margin-bottom: 147px; */
+    }
+    #teams .illustration1 {
+        display: none;
+    }
+    #teams .sectionHead {
+        font-size: 25px;
+        text-align: center;
+        display: block;
+    }
+    #teams .sectionTitle {
+        width: unset;
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    /* Teams Section End */
 }
 
 
@@ -56,7 +173,7 @@
 
 
 
-/* Small devices (landscape phones, 576px and up) */
+/* (sm) Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.999px) {
     #nav {
         background: gold;
@@ -83,6 +200,7 @@
     /* Banner Section Start */
     #banner {
         padding-top: 100px;
+        text-align: center;
     }
     #banner .illustration1 {
         display: none;
@@ -91,7 +209,94 @@
         width: inherit;
         font-size: 36px;
     }
+    #banner p {
+        width: inherit;
+    }
+    #banner .commonBtn {
+        margin-left: inherit;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
     /* Banner Section End */
+    
+    /* About Section Start */
+    #about {
+        padding: 85px 0 10px;
+        text-align: center;
+    }
+    #about .sectionTitle {
+        font-size: 36px;
+    }
+    #about .sectionHead {
+        font-size: 25px;
+    }
+    #about .sectionTitle {
+        width: inherit;
+        font-size: 43px;
+    }
+    #about p {
+        width: inherit;
+        margin: 24px auto;
+    }
+    #about .commonBtn {
+        margin-left: inherit;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    /* About Section End */
+
+    
+    /* Recommendations Section Start */
+    .row > * {
+        padding-right: unset;
+    }
+    #recommendations {
+        text-align: center;
+        padding: 40px 0 85px;
+    }
+    #about .gridContainer {
+        display: none;
+    }
+    #recommendations .sectionHead {
+        font-size: 37px;
+        text-align: center;
+        display: block;
+    }
+    #recommendations .sectionTitle {
+        width: unset;
+        font-size: 54px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    /* Recommendations Section End */
+    
+    /* Services Section Start */
+    .row > * {
+        padding-right: unset;
+    }
+    #services{
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+    #services .sectionHead {
+        font-size: 35px;
+        text-align: center;
+        display: block;
+    }
+    #services .sectionTitle {
+        width: unset;
+        font-size: 45px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    /* Services Section End */
+
+    /* Teams Section Start */
+    #teams .illustration1 {
+        display: none;
+    }                   
+    /* Teams Section End */
+
 }
 
 
@@ -107,37 +312,105 @@
 
 
 
-/* Medium devices (tablets, 768px and up) */
+/* (md) Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.999px) {
     #nav {
         background: #D2691E;
+        padding-top: 15px;
     }
     .nav-link{
         color: #ADFF2F;
     }
+    
 
 
-        /* banner Section Start */
-        #banner {
-            padding-top: 160px;
-        }
-        #banner .illustration1 {
-            width: 300px;
-            height: 300px;
-            left: calc(50% + 47px);
-            top: 156px;
-        }
-        #banner h1 {
-            width: 360px;
-            font-size: 39px;
-        }
-        #banner p {
-            width: 328px;
-            font-size: 18px;
-            margin-top: 30px;
-        }
-        /* banner Section End */
- }
+    /* banner Section Start */
+    #banner {
+        padding-top: 160px;
+    }
+    #banner .illustration1 {
+        width: 300px;
+        height: 300px;
+        left: calc(50% + 47px);
+        top: 156px;
+    }
+    #banner h1 {
+        width: 360px;
+        font-size: 39px;
+    }
+    #banner p {
+        width: 328px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    #banner .commonBtn {
+        padding: 13px 30px;
+    }
+    /* banner Section End */
+    
+    /* About Section Start */
+    #about{
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+    #about .sectionHead {
+        /* margin-left: inherit; */
+        font-size: 35px;
+    }
+    #about .sectionTitle {
+        width: inherit;
+        margin-left: inherit;
+        font-size: 45px;
+    }
+    #about .commonBtn {
+        margin-left: inherit;
+        padding: 13px 30px;
+    }
+    #about p {
+        width: inherit;
+        margin: 12px auto;
+        margin-left: inherit;
+    }
+    /* About Section End */
+    
+    /* Recommendations Section Start */
+    .row > * {
+        padding-right: unset;
+    }
+    #recommendations{
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+    #recommendations .sectionHead {
+        font-size: 37px;
+        text-align: center;
+        display: block;
+    }
+    #recommendations .sectionTitle {
+        width: unset;
+        font-size: 54px;
+        text-align: center;
+    }
+    /* Recommendations Section End */
+
+    /* Service Section Start */
+    #services {
+        padding: 150px 0 70px;
+    }
+    /* Service Section End */
+
+    /* Teams Section Start */
+    #teams {
+        margin-bottom: 70px;
+    }
+    #teams .card {
+        width: unset;
+    }
+    #teams .card > .card-head {
+        height: 210px;
+    }
+    /* Teams Section End */
+}
 
 
 
@@ -152,7 +425,7 @@
 
 
 
-/* Large devices (desktops, 992px and up) */
+/* (lg) Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.999px) {
     #nav {
         background: skyblue;
@@ -168,14 +441,46 @@
     #banner .illustration1 {
         width: 360px;
         height: 360px;
-        left: calc(50% + 118px);
+        left: calc(50% + 79px);
         top: 180px;
     }
     #banner h1 {
         width: 447px;
         font-size: 55px;
     }
+    #banner .commonBtn {
+        margin-left: inherit;
+        padding: 13px 30px;
+    }
     /* banner Section End */
+
+    /* About Section Start */
+    #about{
+        padding-top: 90px;
+    }
+    #about .sectionHead {
+        margin-left: inherit;
+        font-size: 35px;
+    }
+    #about .sectionTitle {
+        width: unset;
+        font-size: 45px;
+    }
+    #about .gridContainer {
+        width: 93%;
+        height: 450px;
+        float: unset;
+    }
+    #about .commonBtn {
+        margin-left: inherit;
+        padding: 13px 30px;
+    }
+    /* About Section End */
+    /* service Section Start */
+    #services .card {
+        width: 150px;
+    }
+    /* service Section End */
 }
 
 
