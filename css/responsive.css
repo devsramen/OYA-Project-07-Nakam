@@ -292,9 +292,24 @@
     /* Services Section End */
 
     /* Teams Section Start */
+    #teams{
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
     #teams .illustration1 {
         display: none;
-    }                   
+    }
+    #teams .sectionHead {
+        font-size: 35px;
+        text-align: center;
+        display: block;
+    }
+    #teams .sectionTitle {
+        width: unset;
+        font-size: 45px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
     /* Teams Section End */
 
 }
@@ -377,9 +392,9 @@
     .row > * {
         padding-right: unset;
     }
-    #recommendations{
+    #recommendations {
         text-align: center;
-        padding: 40px 0 0 0;
+        padding: 40px 0 50px 0;
     }
     #recommendations .sectionHead {
         font-size: 37px;
@@ -395,13 +410,22 @@
 
     /* Service Section Start */
     #services {
-        padding: 150px 0 70px;
+        padding: 50px 0;
     }
     /* Service Section End */
 
     /* Teams Section Start */
     #teams {
         margin-bottom: 70px;
+        text-align: center;
+    }
+    #teams .sectionHead {
+        font-size: 37px;
+        display: block;
+    }
+    #teams .sectionTitle {
+        width: unset;
+        font-size: 45px;
     }
     #teams .card {
         width: unset;
@@ -481,6 +505,15 @@
         width: 150px;
     }
     /* service Section End */
+    
+    /* Teams Section Start */
+    #teams .card {
+        width: unset;
+    }
+    #teams .card > .card-head {
+        height: 250px;
+    }
+    /* Teams Section End */
 }
 
 
