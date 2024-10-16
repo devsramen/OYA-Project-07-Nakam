@@ -149,14 +149,17 @@ ul,li{
 #about .gridContainer .gridItem_1{
     grid-column: span 348;
     grid-row: 47 / 480;
+    overflow: hidden;
 }
 #about .gridContainer .gridItem_2{
     grid-column: 371 / -1;
     grid-row: span 200;
+    overflow: hidden;
 }
 #about .gridContainer .gridItem_3{
     grid-column: 371 / 573;
     grid-row: 225 / -1;
+    overflow: hidden;
 }
 #about .sectionTitle{
     width: 516px;
