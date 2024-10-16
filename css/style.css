@@ -191,7 +191,7 @@ ul,li{
 #recommendations .card .card-head{
     display: grid;
 }
-#recommendations .card .card-head .placeholder{
+#recommendations .card .card-head .recomPlaceholder{
     width: 195px;
     height: 195px;
     background-color: var(--placeholder);
